@@ -1,5 +1,6 @@
 package libp2pwebrtc
 
+//go:build !android
 import (
 	"context"
 	"errors"
