@@ -1,5 +1,7 @@
 package libp2p
 
+//go:build !android
+
 // This file contains all the default configuration options.
 
 import (
