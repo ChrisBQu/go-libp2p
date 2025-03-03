@@ -1,3 +1,5 @@
+//go:build !android
+
 package libp2p_test
 
 import (
@@ -17,7 +19,6 @@ import (
 	_ "github.com/libp2p/go-libp2p/p2p/protocol/holepunch/pb"
 	_ "github.com/libp2p/go-libp2p/p2p/protocol/identify/pb"
 	_ "github.com/libp2p/go-libp2p/p2p/security/noise/pb"
-	_ "github.com/libp2p/go-libp2p/p2p/transport/webrtc/pb"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"
 )
